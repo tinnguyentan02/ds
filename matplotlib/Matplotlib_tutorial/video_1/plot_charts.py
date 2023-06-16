@@ -34,6 +34,6 @@ plt.grid()  # grid
 
 plt.tight_layout() # ensure all elements of plot are properly displayed
 
-plt.savefig('plot.png') # save screenshot of the graph 
+plt.savefig('./img/plots_1.png') # save screenshot of the graph 
 
 plt.show()

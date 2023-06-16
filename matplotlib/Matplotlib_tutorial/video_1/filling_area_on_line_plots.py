@@ -27,7 +27,7 @@ plt.legend()
 plt.title('Median Salary (USD) by Age')
 plt.xlabel('Ages')
 plt.ylabel('Median Salary (USD)')
-
+plt.savefig('img/plots_2.png')
 plt.tight_layout()
 
 plt.show()

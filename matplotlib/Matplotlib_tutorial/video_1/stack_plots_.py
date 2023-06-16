@@ -16,4 +16,5 @@ plt.stackplot(minutes, player1, player2, player3, labels = labels, colors = colo
 plt.legend(loc = (0.05, 0.7))  # also can use loc='lower left'
 plt.title('My Awesome Stack Plot')
 plt.tight_layout()
+plt.savefig('img/stack.png')
 plt.show()

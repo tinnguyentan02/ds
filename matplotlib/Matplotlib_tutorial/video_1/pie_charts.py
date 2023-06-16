@@ -18,4 +18,5 @@ plt.pie(slices, labels = labels, explode = explode,
         wedgeprops ={'edgecolor': 'black'})
 plt.title('My Awesome Pie Chart')
 plt.tight_layout()
+plt.savefig('img/pie.png')
 plt.show()
